@@ -64,10 +64,10 @@
                     "uniqueID": 749608,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "name",
+                        "BOMitemName": "148ZZ Bearing",
                         "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "costUSD": 7.77,
+                        "source": "https://www.mcmaster.com/7804k116",
                         "totalNeeded": 1
                     }
                 },
@@ -101,7 +101,19 @@
                     "ap1ID": 873407,
                     "ap2ID": 361165
                 },
-                null
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 361165,
+                    "ap2ID": 749608
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 749608
+                }
             ],
             "fileTypeVersion": 1
         }
