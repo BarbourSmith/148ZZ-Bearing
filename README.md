@@ -4,9 +4,3 @@
 
 ![](/project.svg)
 
-## 148ZZ Bearing
-
-
-undefined
-
-

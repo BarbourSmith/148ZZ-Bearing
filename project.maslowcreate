@@ -12,8 +12,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 171,
-                    "y": 120,
+                    "x": 68,
+                    "y": 56,
                     "uniqueID": 171380,
                     "ioValues": [
                         {
@@ -25,8 +25,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 184,
-                    "y": 221,
+                    "x": 90,
+                    "y": 152,
                     "uniqueID": 853212,
                     "ioValues": [
                         {
@@ -38,16 +38,52 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 336,
-                    "y": 156,
+                    "x": 261,
+                    "y": 80,
                     "uniqueID": 873407,
                     "ioValues": []
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Cylinder",
+                    "x": 304,
+                    "y": 159,
+                    "uniqueID": 202348,
+                    "projectID": "240615474",
+                    "ioValues": [
+                        {
+                            "name": "Width",
+                            "ioValue": 14
+                        },
+                        {
+                            "name": "Height",
+                            "ioValue": 4
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Cylinder",
+                    "x": 300,
+                    "y": 251,
+                    "uniqueID": 450297,
+                    "projectID": "240615474",
+                    "ioValues": [
+                        {
+                            "name": "Width",
+                            "ioValue": 8
+                        },
+                        {
+                            "name": "Height",
+                            "ioValue": 4
+                        }
+                    ]
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 532,
-                    "y": 104,
+                    "x": 402,
+                    "y": 46,
                     "uniqueID": 361165,
                     "ioValues": [
                         {
@@ -55,6 +91,14 @@
                             "ioValue": 4
                         }
                     ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 461,
+                    "y": 200,
+                    "uniqueID": 177648,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Add BOM Tag",
@@ -100,6 +144,20 @@
                     "ap2Primary": true,
                     "ap1ID": 873407,
                     "ap2ID": 361165
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 202348,
+                    "ap2ID": 177648
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 450297,
+                    "ap2ID": 177648
                 },
                 {
                     "ap1Name": "geometry",
