@@ -55,25 +55,10 @@
             ]
         },
         {
-            "atomType": "Add BOM Tag",
-            "name": "Add BOM Tag",
-            "x": 0.7562225475841875,
-            "y": 0.42911877394636017,
-            "uniqueID": 749608,
-            "ioValues": [],
-            "BOMitem": {
-                "BOMitemName": "148ZZ Bearing",
-                "numberNeeded": 1,
-                "costUSD": 7.77,
-                "source": "https://www.mcmaster.com/7804k116",
-                "totalNeeded": 1
-            }
-        },
-        {
             "atomType": "Color",
             "name": "Color",
-            "x": 0.6551976573938506,
-            "y": 0.6130268199233716,
+            "x": 0.6969253294289898,
+            "y": 0.5977011494252873,
             "uniqueID": 875516,
             "ioValues": [],
             "selectedColorIndex": "6"
@@ -119,14 +104,7 @@
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 749608
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 875516,
-            "ap2ID": 749608
+            "ap1ID": 875516
         }
     ],
     "fileTypeVersion": 1,
